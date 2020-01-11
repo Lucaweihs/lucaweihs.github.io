@@ -1,0 +1,30 @@
+[
+  {
+    "company" : "University of Washington",
+    "dates" : ["6/16 - present", "9/15 - 3/16", "9/14 - 6/15", "6/13 - 9/13"],
+    "position" : ["Teaching/Research Assistant"],
+    "location" : "Seattle, WA",
+    "keywords" : ["graphical models", "algebraic statistics", "multivariate dependence"]
+  },
+  {
+    "company" : "Allen Institute for Artificial Intelligence",
+    "dates" : ["3/16 - 6/16", "6/16 - 8/15"],
+    "position" : ["Research Intern"],
+    "location" : "Seattle, WA",
+    "keywords" : ["Semantic Scholar", "search relevance", "citation prediction"]
+  },
+  {
+    "company" : "ClearSlide inc.",
+    "dates" : ["6/14 - 8/14"],
+    "position" : ["Data Science Intern"],
+    "location" : "San Francisco, CA",
+    "keywords" : ["churn prediction", "model selection"]
+  },
+  {
+    "company" : "Edmodo inc.",
+    "dates" : ["6/13 - 8/13"],
+    "position" : ["Engineering Intern"],
+    "location" : "San Mateo, CA",
+    "keywords" : ["ed-tech", "backend api"]
+  }
+]

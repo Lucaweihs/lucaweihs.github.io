@@ -1,0 +1,33 @@
+<table class="employment-table">
+  {% for emp in site.data.employment %}
+      <tr>
+        <td class="dates-entry">
+          {% for date in emp.dates %}
+            {% if forloop.last == false %}
+              {{date}}, <br/>
+            {% else %}
+              {{date}}
+            {% endif %}
+          {% endfor %}
+        </td>
+
+        <td class="position-info-entry">
+          <span>{{emp.company}}</span> <br/>
+          <span>{{emp.position}}</span> <br/>
+          <span>
+            {% for keyword in emp.keywords %}
+              {% if forloop.length == 1 %}
+                {{ keyword | capitalize }}
+              {% elsif forloop.first %}
+                {{ keyword | capitalize }},
+              {% elsif forloop.last == false %}
+                {{keyword}},
+              {% else %}
+                {{keyword}}
+              {% endif %}
+            {% endfor %}
+          </span>
+        </td>
+      </tr>
+  {% endfor %}
+</table>

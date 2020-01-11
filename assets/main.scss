@@ -1,0 +1,354 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/**
+ * Have scroll bar always appear so stuff doesn't move around
+ **/
+ body {
+   overflow: scroll;
+   min-width: 800px;
+ }
+
+ .site-nav {
+    width: 100%;
+ }
+
+ .page-content {
+    flex: 0;
+ }
+
+  /**
+  * Site header
+  */
+
+  .header-me {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .header-me a {
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+
+  a.active {
+    text-decoration: underline;
+  }
+
+  .header-title {
+    font-size: 26px;
+    font-weight: 300;
+    /*line-height: 56px;*/
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .header-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    /*line-height: 56px;*/
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    margin-top: 2px;
+  }
+
+  .me-circle {
+    border-radius: 50%;
+    width: 200px;
+    padding: 5px;
+    box-shadow: 1px 1px 7px $grey-color;
+  }
+
+  /*@include media-query($on-laptop) {
+  .me-circle {
+  width: webkit-calc(25%);
+  width: calc(25%);
+  }
+  }*/
+
+  .site-header {
+    /*border-top: 5px solid $grey-color-dark;*/
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+  }
+
+  .site-title {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+      color: $grey-color-dark;
+    }
+  }
+
+  .site-nav {
+    text-align: center;
+    line-height: 56px;
+
+    .menu-icon {
+      display: none;
+    }
+
+    .page-link {
+      color: $text-color;
+      line-height: $base-line-height;
+
+      // Gaps between nav items, but not on the last one
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+
+    /*@include media-query($on-palm) {
+      position: absolute;
+      top: 9px;
+      right: $spacing-unit / 2;
+      background-color: $background-color;
+      border: 1px solid $grey-color-light;
+      border-radius: 5px;
+      text-align: right;
+
+      .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+
+        > svg path {
+          fill: $grey-color-dark;
+        }
+      }
+
+      .trigger {
+        clear: both;
+        display: none;
+      }
+
+      &:hover .trigger {
+        display: block;
+        padding-bottom: 5px;
+      }
+
+      .page-link {
+        display: block;
+        padding: 5px 10px;
+
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+        margin-left: 20px;
+      }
+    }*/
+  }
+
+
+
+  /**
+  * Site footer
+  */
+  .site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+  }
+
+  .icon > svg {
+    width: 1em;
+  }
+
+  .footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  .contact-list,
+  .social-media-list {
+    list-style: none;
+    margin-left: 0;
+  }
+
+  .footer-col-1 {
+    width: -webkit-calc(43% - (30px / 2));
+    width: calc(43% - (30px / 2));
+  }
+  .footer-col-2 {
+    width: -webkit-calc(40% - (30px / 2));
+    width: calc(40% - (30px / 2));
+  }
+  .footer-col-3 {
+    width: -webkit-calc(10% - (30px / 2));
+    width: calc(10% - (30px / 2));
+  }
+
+  @include media-query($on-palm) {
+  .footer-col {
+    float: left;
+  }
+     .footer-col-1 {
+    width: -webkit-calc(43% - (30px / 2));
+    width: calc(43% - (30px / 2));
+  }
+  .footer-col-2 {
+    width: -webkit-calc(40% - (30px / 2));
+    width: calc(40% - (30px / 2));
+  }
+  .footer-col-3 {
+    width: -webkit-calc(10% - (30px / 2));
+    width: calc(10% - (30px / 2));
+  }
+  }
+
+
+  /**
+  * Page content
+  */
+  .page-content {
+    padding: $spacing-unit 0;
+  }
+
+  .page-heading {
+    font-size: 20px;
+  }
+
+  .post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+      margin-bottom: $spacing-unit;
+    }
+  }
+
+  .post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+  }
+
+  .post-link {
+    display: block;
+    font-size: 24px;
+  }
+
+
+
+  /**
+  * Posts
+  */
+  .post-header {
+    margin-bottom: $spacing-unit;
+  }
+
+  .post-title {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+      font-size: 30px;
+    }
+  }
+
+  .post-content {
+    margin-bottom: $spacing-unit;
+
+    h1 {
+      font-size: 32px;
+
+      @include media-query($on-laptop) {
+        font-size: 30px;
+      }
+    }
+
+    h2 {
+      font-size: 26px;
+
+      @include media-query($on-laptop) {
+        font-size: 22px;
+      }
+    }
+
+    h3 {
+      font-size: 20px;
+
+      @include media-query($on-laptop) {
+        font-size: 18px;
+      }
+    }
+
+    h4 {
+      font-size: 18px;
+
+      @include media-query($on-laptop) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  /***
+  * Publications
+  ***/
+
+  .publications-table {
+    width: -webkit-calc(100%);
+    width:         calc(100%);
+  }
+
+  table.publications-table {
+    border-collapse: collapse;
+    border: 0px;
+  }
+
+  div.hline {
+    margin-bottom: 11px;
+    margin-top: 11px;
+    height: 1px;
+    background-color: $grey-color-light;
+  }
+
+  .publications-table td {
+    border: 0px solid white;
+    background-color: white;
+    padding: 0px;
+  }
+
+  table.publications-table tr:last-of-type div {
+    height: 0px;
+  }
+
+  td.code-link
+  {
+    vertical-align: center;
+    text-align: right;
+    font-size: .9em;
+    width: 20%;
+    /*width: -webkit-calc(20%);
+    width:         calc(20%);*/
+  }
+
+  td.publication-info
+  {
+    vertical-align: top;
+    width: 80%;
+    /*width: -webkit-calc(80%);
+    width:         calc(80%);*/
+  }
+
+  .publication-authors, .publication-status,
+  .publication-context
+   {
+    font-size: 0.9em;
+  }

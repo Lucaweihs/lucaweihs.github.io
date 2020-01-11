@@ -1,0 +1,93 @@
+<table class="publications-table">
+  {% for pub in include.publications %}
+    <tr class="publication-entry">
+      <td class="publication-info">
+        <a class="publication-title" href="{{ pub.url }}">{{ pub.title }}</a>
+        <br/>
+        <span class="publication-authors">
+          {% if pub.authors.size == 1 %}
+            <strong>{{pub.authors[0]}}</strong>
+          {% elsif pub.authors.size == 2 %}
+
+            {% if pub.authors[0] contains "Luca" %}
+            <strong>{{pub.authors[0]}}</strong>
+            {% else %}
+            {{pub.authors[0]}}
+            {% endif %}
+            and
+            {% if pub.authors[1] contains "Luca" %}
+            <strong>{{pub.authors[1]}}</strong>
+            {% else %}
+            {{pub.authors[1]}}
+            {% endif %}
+
+          {% else %}
+            {% for author in pub.authors limit:4%}
+              {% if forloop.last == false %}
+                {% if author contains "Luca" %}
+                <strong>{{author}}</strong>,
+                {% else %}
+                {{author}},
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+            {% if 4 < pub.authors.size %}
+                {% if pub.authors[3] contains "Luca" %}
+                <strong>{{pub.authors[3]}}</strong>, et al.
+                {% else %}
+                {{pub.authors[3]}}, et al.
+                {% endif %}
+            {% else %}
+              and
+            {% if pub.authors.last contains "Luca" %}
+                <strong>{{pub.authors.last}}</strong>
+                {% else %}
+                {{pub.authors.last}}
+                {% endif %}
+            {% endif %}
+          {% endif %}
+           ({{pub.years[0]}})
+         </span>
+
+         {% if pub.status %}
+         <br/>
+          <span class="publication-status">
+            {% if pub.status == "accepted" %}
+               Accepted for publication in {{pub.venues[0]}}.
+            {% elsif pub.status == "published" %}
+               Published in {{pub.venues[0]}}.
+            {% elsif pub.status == "review" %}
+               Under review.
+            {% endif %}
+          </span>
+         {% endif %}
+
+         {% if pub.context %}
+          <br/>
+          <span class="publication-context">
+            {{ pub.context }}
+          </span>
+         {% endif %}
+       </td>
+
+       <td class="code-link">
+         {% if pub.code %}
+           See {{pub.code.language}} package on
+           {% for where in pub.code.wheres %}
+            <a href="{{pub.code.urls[forloop.index0]}}">
+              {{where}}
+            </a>
+            {% if forloop.last == false %}
+              and
+            {% endif %}
+           {% endfor %}
+         {% endif %}
+       </td>
+    </tr>
+
+    <tr>
+      <td><div class="hline"> </div></td>
+      <td><div class="hline"> </div></td>
+    </tr>
+    {% endfor %}
+</table>

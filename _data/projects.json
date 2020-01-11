@@ -1,0 +1,14 @@
+[
+  {
+    "title" : "Revisiting Recursive Inversion Models for Permutations",
+    "years" : ["2015"],
+    "authors" : ["Luca Weihs"],
+    "url" : "https://www.stat.washington.edu/~lucaw/assets/revisiting_recursive_inversion_models_for_permutations.pdf",
+    "context" : "PhD Prelim Project",
+    "code" : {
+        "language" : "R",
+        "wheres" : ["GitHub"],
+        "urls" : ["https://github.com/Lucaweihs/RIM"]
+      }
+  }
+]

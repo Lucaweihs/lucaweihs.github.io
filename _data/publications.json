@@ -1,0 +1,141 @@
+[
+	{
+	"title": "Artificial Agents Learn Flexible Visual Representations by Playing a Hiding Game",
+	"years": [
+		"2019"
+	],
+	"authors": [
+		"Luca Weihs", "Aniruddha Kembhavi", "Winson Han", "Alvaro Herrasti", "Eric Kolve", "Dustin Schwenk", "Roozbeh Mottaghi", "Ali Farhadi"
+	],
+	"venues": [
+	],
+	"status": "review",
+	"url": "https://arxiv.org/abs/1912.08195"
+	},
+	{
+	"title": "Two Body Problem: Collaborative Visual Task Completion",
+	"years": [
+		"2019"
+	],
+	"authors": [
+		"Unnat Jain*",
+		"Luca Weihs*",
+		"Eric Kolve",
+		"Mohammad Rastegari",
+		"Svetlana Lazebnik",
+		"Ali Farhadi",
+		"Alexander Schwing",
+		"Aniruddha Kembhavi"
+	],
+	"venues": [
+		"CVPR"
+	],
+	"status": "published",
+	"url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf"
+	},
+    {
+	"title" : "Symmetric Rank Covariances: a Generalised Framework for Nonparametric Measures of Dependence",
+	"years" : ["2018", "2017"],
+	"authors" : ["Luca Weihs", "Mathias Drton", "Nicolai Meinshausen"],
+	"venues" : ["Biometrika", "arXiv"],
+	"status" : "published",
+	"url" : "https://academic.oup.com/biomet/article-abstract/105/3/547/5038475",
+	"code" : {
+            "language" : "R",
+            "wheres" : ["GitHub"],
+            "urls" : ["https://github.com/Lucaweihs/SymRC"]
+		}
+    },
+	{
+	"title" : "Nested Covariance Determinants and Restricted Trek Separation in Gaussian Graphical Models",
+	"years" : ["2018"],
+	"authors" : ["Mathias Drton", "Elina Robeva", "Luca Weihs"],
+	"venues" : ["Bernoulli", "arXiv"],
+	"status" : "published",
+	"url" : "https://arxiv.org/abs/1807.07561",
+    },
+    {
+	"title" : "Learning to Predict Citation-Based Impact Measures",
+	"years" : ["2017"],
+	"authors" : ["Luca Weihs", "Oren Etzioni"],
+	"venues" : ["JCDL'17"],
+	"status" : "published",
+	"url" : "http://ai2-website.s3.amazonaws.com/publications/JCDL2017.pdf",
+	"code" : {
+            "language" : "Python",
+            "wheres" : ["GitHub"],
+            "urls" : ["https://github.com/Lucaweihs/impact-prediction"]
+		}
+    },
+    {
+	"title" : "Determinantal Generalizations of Instrumental Variables",
+	"years" : ["2017"],
+	"authors" : ["Luca Weihs", "Bill Robinson", "Emilie Dufresne",
+		     "Jennifer Kenkel", "Kaie Kubjas", "Reginald L. McGee II",
+		     "Nhan Nguyen", "Elina Robeva", "Mathias Drton"],
+	"venues" : ["Journal of Causal Inference", "arXiv"],
+	"status" : "published",
+	"url" : "https://arxiv.org/abs/1702.03884",
+	"code" : {
+            "language" : "R",
+            "wheres" : ["GitHub"],
+            "urls" : ["https://github.com/Lucaweihs/SEMID"]
+		}
+    },
+    {
+	"title" : "Marginal likelihood and model selection for Gaussian latent tree and forest models",
+	"years" : ["2017", "2014"],
+	"authors" : ["Mathias Drton", "Shaowei Lin", "Luca Weihs", "Piotr Zwiernik"],
+	"venues" : ["Bernoulli", "arXiv"],
+	"status" : "published",
+	"url" : "https://arxiv.org/abs/1412.8285",
+	"code" : {
+            "language" : "R",
+            "wheres" : ["CRAN", "GitHub"],
+            "urls" : ["https://cran.r-project.org/web/packages/sBIC/index.html",
+		      "https://github.com/Lucaweihs/sBIC"]
+		}
+    },
+    {
+	"title" : "Large-Sample Theory for the Bergsma-Dassios Sign Covariance",
+	"years" : ["2016", "2016"],
+	"authors" : ["Preetam Nandy*", "Luca Weihs*", "Mathias Drton"],
+	"venues" : ["the EJS", "arXiv"],
+	"status" : "published",
+	"url" : "https://projecteuclid.org/euclid.ejs/1472498028",
+	"code" : {
+            "language" : "R",
+            "wheres" : ["CRAN", "GitHub"],
+            "urls" : ["https://cran.r-project.org/web/packages/TauStar/index.html",
+		      "https://github.com/Lucaweihs/TauStar"]
+		}
+    },
+    {
+	"title" : "Generic Identifiability of Linear Structural Equation Models by Ancestor Decomposition",
+	"years" : ["2016", "2015"],
+	"authors" : ["Mathias Drton", "Luca Weihs"],
+	"venues" : ["the Scandinavian Journal of Statistics", "arXiv"],
+	"status" : "published",
+	"url" : "https://arxiv.org/abs/1504.02992",
+	"code" : {
+            "language" : "R",
+            "wheres" : ["CRAN", "GitHub"],
+            "urls" : ["https://cran.r-project.org/web/packages/SEMID/index.html",
+		      "https://github.com/Lucaweihs/SEMID"]
+		}
+    },
+    {
+	"title" : "Efficient Computation of the Bergsma-Dassios Sign Covariance",
+	"years" : ["2016", "2015"],
+	"authors" : ["Luca Weihs", "Mathias Drton", "Dennis Leung"],
+	"venues" : ["Computational Statistics", "arXiv"],
+	"status" : "published",
+	"url" : "https://arxiv.org/abs/1504.00964",
+	"code" : {
+            "language" : "R",
+            "wheres" : ["CRAN", "GitHub"],
+            "urls" : ["https://cran.r-project.org/web/packages/TauStar/index.html",
+		      "https://github.com/Lucaweihs/TauStar"]
+		}
+    }
+]
