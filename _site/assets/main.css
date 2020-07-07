@@ -310,7 +310,7 @@ width:         calc(20%);*/ }
 
 td.pub-thumbnail { width: 25%; padding-right: 2%; }
 
-.pub-thumbnail img { width: auto; height: 100%; display: block; }
+.pub-thumbnail img { width: auto; height: auto; display: block; }
 
 td.publication-info { vertical-align: middle; /*width: -webkit-calc(80%);
 width:         calc(80%);*/ }
