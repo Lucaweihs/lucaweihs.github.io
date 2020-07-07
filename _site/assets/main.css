@@ -305,10 +305,14 @@ div.hline { margin-bottom: 11px; margin-top: 11px; height: 1px; background-color
 
 table.publications-table tr:last-of-type div { height: 0px; }
 
-td.code-link { vertical-align: center; text-align: right; font-size: .9em; width: 20%; /*width: -webkit-calc(20%);
+td.code-link { vertical-align: center; text-align: right; font-size: .9em; /*width: -webkit-calc(20%);
 width:         calc(20%);*/ }
 
-td.publication-info { vertical-align: top; width: 80%; /*width: -webkit-calc(80%);
+td.pub-thumbnail { width: 25%; padding-right: 2%; }
+
+.pub-thumbnail img { width: auto; height: 100%; display: block; }
+
+td.publication-info { vertical-align: middle; /*width: -webkit-calc(80%);
 width:         calc(80%);*/ }
 
 .publication-authors, .publication-status, .publication-context { font-size: 0.9em; }

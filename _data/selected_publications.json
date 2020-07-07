@@ -1,5 +1,31 @@
 [
 	{
+	"title": "A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks",
+	"years": [
+		"2020"
+	],
+	"authors": [
+		"Unnat Jain*",
+		"Luca Weihs*",
+		"Eric Kolve",
+        "Ali Farhadi",
+		"Svetlana Lazebnik",
+		"Aniruddha Kembhavi",
+		"Alexander Schwing"
+	],
+	"venues": [
+		"ECCV"
+	],
+	"status": "accepted",
+	"url": "https://unnat.github.io/cordial-sync/paper.pdf",
+	"code" : {
+            "language" : "Python",
+            "wheres" : ["GitHub"],
+            "urls" : ["https://github.com/allenai/cordial-sync"]
+		},
+		"thumbnail": "cordialsync.gif"
+	},
+	{
 	"title": "Artificial Agents Learn Flexible Visual Representations by Playing a Hiding Game",
 	"years": [
 		"2019"
@@ -10,7 +36,8 @@
 	"venues": [
 	],
 	"status": "review",
-	"url": "https://arxiv.org/abs/1912.08195"
+	"url": "https://arxiv.org/abs/1912.08195",
+	"thumbnail": "cache.jpg"
 	},
 	{
 	"title": "Two Body Problem: Collaborative Visual Task Completion",
@@ -31,7 +58,13 @@
 		"CVPR"
 	],
 	"status": "published",
-	"url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf"
+	"url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf",
+	"thumbnail": "tbone.jpg",
+	"code": {
+            "language" : "Python",
+            "wheres" : ["GitHub"],
+            "urls" : ["https://github.com/allenai/cordial-sync"]
+		}
 	},
     {
 	"title" : "Symmetric Rank Covariances: a Generalised Framework for Nonparametric Measures of Dependence",
@@ -44,8 +77,9 @@
             "language" : "R",
             "wheres" : ["GitHub"],
             "urls" : ["https://github.com/Lucaweihs/SymRC"]
-		}
-    },
+		},
+	"thumbnail": "src.jpg"
+	},
 	{
 	"title" : "Nested Covariance Determinants and Restricted Trek Separation in Gaussian Graphical Models",
 	"years" : ["2018"],
@@ -53,6 +87,7 @@
 	"venues" : ["Bernoulli", "arXiv"],
 	"status" : "published",
 	"url" : "https://arxiv.org/abs/1807.07561",
+	"thumbnail": "nesteddets.jpg"
     },
     {
 	"title" : "Learning to Predict Citation-Based Impact Measures",
@@ -65,8 +100,10 @@
             "language" : "Python",
             "wheres" : ["GitHub"],
             "urls" : ["https://github.com/Lucaweihs/impact-prediction"]
-		}
+		},
+	"thumbnail": "citepredict.jpg"
     },
+
     {
 	"title" : "Determinantal Generalizations of Instrumental Variables",
 	"years" : ["2017"],
@@ -80,7 +117,8 @@
             "language" : "R",
             "wheres" : ["GitHub"],
             "urls" : ["https://github.com/Lucaweihs/SEMID"]
-		}
+		},
+	"thumbnail": "detgen.png"
     },
     {
 	"title" : "Marginal likelihood and model selection for Gaussian latent tree and forest models",
@@ -94,7 +132,8 @@
             "wheres" : ["CRAN", "GitHub"],
             "urls" : ["https://cran.r-project.org/web/packages/sBIC/index.html",
 		      "https://github.com/Lucaweihs/sBIC"]
-		}
+		},
+	"thumbnail": "marginal-like.png"
     },
     {
 	"title" : "Large-Sample Theory for the Bergsma-Dassios Sign Covariance",
@@ -108,7 +147,8 @@
             "wheres" : ["CRAN", "GitHub"],
             "urls" : ["https://cran.r-project.org/web/packages/TauStar/index.html",
 		      "https://github.com/Lucaweihs/TauStar"]
-		}
+		},
+	"thumbnail": "largesample.jpg"
     },
     {
 	"title" : "Generic Identifiability of Linear Structural Equation Models by Ancestor Decomposition",
@@ -122,7 +162,8 @@
             "wheres" : ["CRAN", "GitHub"],
             "urls" : ["https://cran.r-project.org/web/packages/SEMID/index.html",
 		      "https://github.com/Lucaweihs/SEMID"]
-		}
+		},
+	"thumbnail": "ancestor.png"
     },
     {
 	"title" : "Efficient Computation of the Bergsma-Dassios Sign Covariance",
@@ -136,6 +177,7 @@
             "wheres" : ["CRAN", "GitHub"],
             "urls" : ["https://cran.r-project.org/web/packages/TauStar/index.html",
 		      "https://github.com/Lucaweihs/TauStar"]
-		}
+		},
+	"thumbnail": "efficientcomputation.png"
     }
 ]

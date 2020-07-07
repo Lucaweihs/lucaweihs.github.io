@@ -1,6 +1,11 @@
 <table class="publications-table">
   {% for pub in include.publications %}
     <tr class="publication-entry">
+    {% if pub.thumbnail %}
+        <td class="pub-thumbnail">
+            <img src="../assets/thumbnails/{{pub.thumbnail}}" />
+        </td>
+    {% endif %}
       <td class="publication-info">
         <a class="publication-title" href="{{ pub.url }}">{{ pub.title }}</a>
         <br/>
@@ -68,10 +73,10 @@
             {{ pub.context }}
           </span>
          {% endif %}
-       </td>
 
-       <td class="code-link">
-         {% if pub.code %}
+          {% if pub.code %}
+          <br/>
+          <span class="publication-context">
            See {{pub.code.language}} package on
            {% for where in pub.code.wheres %}
             <a href="{{pub.code.urls[forloop.index0]}}">
@@ -81,6 +86,7 @@
               and
             {% endif %}
            {% endfor %}
+          </span>
          {% endif %}
        </td>
     </tr>
