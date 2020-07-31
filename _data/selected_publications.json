@@ -1,5 +1,25 @@
 [
 	{
+	"title": "Bridging the Imitation Gap by Adaptive Insubordination",
+	"years": [
+		"2020"
+	],
+	"authors": [
+		"Luca Weihs*",
+        "Unnat Jain*",
+        "Jordi Salvador",
+		"Svetlana Lazebnik",
+		"Aniruddha Kembhavi",
+		"Alexander Schwing"
+	],
+	"venues": [
+		"arXiv"
+	],
+	"status": "review",
+	"url": "https://arxiv.org/abs/2007.12173",
+		"thumbnail": "advisor.jpg"
+    },
+	{
 	"title": "A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks",
 	"years": [
 		"2020"
@@ -17,7 +37,7 @@
 		"ECCV"
 	],
 	"status": "accepted",
-	"url": "https://unnat.github.io/cordial-sync/paper.pdf",
+	"url": "https://arxiv.org/abs/2007.04979",
 	"code" : {
             "language" : "Python",
             "wheres" : ["GitHub"],
