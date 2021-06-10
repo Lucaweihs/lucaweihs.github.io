@@ -1,5 +1,66 @@
 [
 	{
+	"title": "Visual Room Rearrangement",
+	"years": [
+		"2021"
+	],
+	"authors": [
+		"Luca Weihs", "Matt Deitke", "Aniruddha Kembhavi", "Roozbeh Mottaghi"
+	],
+	"venues": [
+		"CVPR"
+	],
+	"status": "accepted",
+	"url": "https://ai2thor.allenai.org/rearrangement/",
+	"thumbnail": "rearrangement.jpg",
+	"code" : {
+		"language" : "Python",
+		"wheres" : ["GitHub"],
+		"urls" : ["https://github.com/allenai/ai2thor-rearrangement"]
+	}
+	},
+	{
+	"title": "Learning Generalizable Visual Representations via Interactive Gameplay",
+	"years": [
+		"2021"
+	],
+	"authors": [
+		"Luca Weihs", "Aniruddha Kembhavi", "Kiana Ehsani", "Sarah M Pratt", "Winson Han", "Alvaro Herrasti", "Eric Kolve", "Dustin Schwenk", "Roozbeh Mottaghi", "Ali Farhadi"
+	],
+	"venues": [
+		"ICLR"
+	],
+	"status": "published",
+	"url": "https://openreview.net/pdf?id=UuchYL8wSZo",
+	"thumbnail": "cache.jpg"
+	},
+	{
+	"title": "AllenAct",
+	"years": [
+		"2020"
+	],
+	"authors": [
+		"Luca Weihs",
+		"Jordi Salvador",
+		"Klemen Kotar",
+		"Unnat Jain",
+		"Kuo-Hao Zeng",
+		"Roozbeh Mottaghi",
+		"Aniruddha Kembhavi"
+	],
+	"venues": [
+		"arXiv"
+	],
+	"status": "whitepaper",
+	"url": "https://allenact.org/",
+	"thumbnail": "allenact.png",
+	"code" : {
+		"language" : "Python",
+		"wheres" : ["GitHub"],
+		"urls" : ["https://github.com/allenai/allenact"]
+	}
+    },
+	{
 	"title": "Bridging the Imitation Gap by Adaptive Insubordination",
 	"years": [
 		"2020"
@@ -36,7 +97,7 @@
 	"venues": [
 		"ECCV"
 	],
-	"status": "accepted",
+	"status": "published",
 	"url": "https://arxiv.org/abs/2007.04979",
 	"code" : {
             "language" : "Python",
@@ -44,20 +105,6 @@
             "urls" : ["https://github.com/allenai/cordial-sync"]
 		},
 		"thumbnail": "cordialsync.gif"
-	},
-	{
-	"title": "Artificial Agents Learn Flexible Visual Representations by Playing a Hiding Game",
-	"years": [
-		"2019"
-	],
-	"authors": [
-		"Luca Weihs", "Aniruddha Kembhavi", "Winson Han", "Alvaro Herrasti", "Eric Kolve", "Dustin Schwenk", "Roozbeh Mottaghi", "Ali Farhadi"
-	],
-	"venues": [
-	],
-	"status": "review",
-	"url": "https://arxiv.org/abs/1912.08195",
-	"thumbnail": "cache.jpg"
 	},
 	{
 	"title": "Two Body Problem: Collaborative Visual Task Completion",
