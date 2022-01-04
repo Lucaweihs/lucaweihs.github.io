@@ -1,5 +1,40 @@
 [
 	{
+    	"title": "Towards Disturbance-Free Visual Mobile Manipulation",
+    	"years": [
+    		"2021"
+    	],
+    	"authors": [
+    		"Tianwei Ni", "Kiana Ehsani", "Luca Weihs*", "Jordi Salvador*"
+    	],
+    	"venues": [
+    		"arXiv"
+    	],
+    	"status": "submitted",
+    	"url": "https://arxiv.org/pdf/2112.12612.pdf",
+    	"thumbnail": "disturb-free.gif",
+    	"code" : {
+    		"language" : "Python",
+    		"wheres" : ["GitHub"],
+    		"urls" : ["https://sites.google.com/view/disturb-free"]
+    	}
+    },
+	{
+    	"title": "The Introspective Agent: Interdependence of Strategy, Physiology, and Sensing for Embodied Agents",
+    	"years": [
+    		"2022"
+    	],
+    	"authors": [
+    		"Sarah Pratt", "Luca Weihs", "Ali Farhadi"
+    	],
+    	"venues": [
+    		"arXiv"
+    	],
+    	"status": "submitted",
+    	"url": "https://arxiv.org/pdf/2201.00411.pdf",
+    	"thumbnail": "introspective.png"
+    },
+	{
     	"title": "Bridging the Imitation Gap by Adaptive Insubordination",
     	"years": [
     		"2021"
@@ -24,7 +59,7 @@
     		"wheres" : ["GitHub"],
     		"urls" : ["https://github.com/allenai/advisor"]
     	}
-        },
+    },
 	{
     	"title": "Simple but Effective: CLIP Embeddings for Embodied AI",
     	"years": [
