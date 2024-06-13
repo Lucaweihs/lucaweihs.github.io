@@ -6,5 +6,6 @@ layout: home
 title: Home
 ---
 
-I am a research scientist at the [Allen Institute for AI](https://www.allenai.org) with interests in deep (embodied, multi-agent) reinforcement learning, representation learning from interaction, causality, and algebraic statistics. I recieved my PhD in statistics from the [University of Washington](https://www.washington.edu/) advised by [Mathias Drton](https://www.professoren.tum.de/en/drton-mathias). My undergraduate years were spent at [UC Berkeley](https://www.berkeley.edu) where I obtained a BA in Mathematics and a minor in Computer Science.
- 
+{% include_relative _markdown/news.md %}
+
+{% include_relative _markdown/research.md %}

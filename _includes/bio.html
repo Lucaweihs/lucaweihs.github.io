@@ -1,0 +1,4 @@
+{% capture bio_content %}
+{% include_relative _markdown/bio.md %}
+{% endcapture %}
+{{ bio_content | markdownify }}

@@ -1,0 +1,383 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// Define defaults for each variable.
+
+/**
+* Have scroll bar always appear so stuff doesn't move around
+**/
+
+body {
+ overflow: scroll;
+ //min-width: $content-width
+}
+
+.site-nav {
+  width: 100%;
+}
+
+.page-content {
+  flex: 0;
+}
+
+/**
+* Site header
+*/
+
+.header-me {
+  padding-top: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center; /* Align items at the start (top) */
+}
+
+.header-me a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.header-left {
+  flex: 1;
+  width: 70%;
+}
+
+.header-right {
+  width: 30%;
+  display: inline-block;
+}
+
+a.active {
+  text-decoration: underline;
+}
+
+.header-title {
+  font-size: $large-font-size;
+  font-weight: 300;
+  /*line-height: 56px;*/
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.header-subtitle {
+  font-size: $base-font-size;
+  font-weight: 300;
+  letter-spacing: 0px;
+  margin-bottom: 1em;
+  margin-top: 2px;
+}
+
+.me-circle {
+  border-radius: 50%;
+  max-width: 80%;
+  padding: 5px;
+  box-shadow: 1px 1px 7px $grey-color;
+}
+
+
+.site-header {
+  /*border-top: 5px solid $grey-color-dark;*/
+  border-bottom: 1px solid $grey-color-light;
+  line-height: $base-line-height;
+  //min-height: 56px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
+.site-nav {
+  text-align: center;
+  line-height: 56px;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+}
+
+
+
+/**
+* Site footer
+*/
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
+}
+
+.icon > svg {
+  width: 1em;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.contact-list {
+  float: left;
+}
+
+.social-media-list {
+  float: right;
+}
+
+.footer-col-1 {
+  width: -webkit-calc(43% - (30px / 2));
+  width: calc(43% - (30px / 2));
+}
+.footer-col-2 {
+  width: -webkit-calc(10% - (30px / 2));
+  width: calc(10% - (30px / 2));
+}
+.footer-col-3 {
+  width: 100%;
+  float: right
+}
+
+@include media-query($on-palm) {
+.footer-col {
+  float: left;
+}
+   .footer-col-1 {
+  width: -webkit-calc(43% - (30px / 2));
+  width: calc(43% - (30px / 2));
+}
+.footer-col-2 {
+  width: -webkit-calc(40% - (30px / 2));
+  width: calc(40% - (30px / 2));
+}
+.footer-col-3 {
+  width: -webkit-calc(10% - (30px / 2));
+  width: calc(10% - (30px / 2));
+}
+}
+
+
+/**
+* Page content
+*/
+.page-content {
+  padding: $spacing-unit 0;
+}
+
+.page-heading {
+  font-size: 20px;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  font-size: 24px;
+}
+
+
+
+/**
+* Posts
+*/
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    font-size: 30px;
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    font-size: 32px;
+
+    @include media-query($on-laptop) {
+      font-size: 30px;
+    }
+  }
+
+  h2 {
+    font-size: 26px;
+
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+
+  h4 {
+    font-size: 18px;
+
+    @include media-query($on-laptop) {
+      font-size: 16px;
+    }
+  }
+}
+
+/***
+* Publications
+***/
+
+.publications-table {
+  width: -webkit-calc(100%);
+  width:         calc(100%);
+}
+
+table.publications-table {
+  border-collapse: collapse;
+  border: 0px;
+}
+
+div.hline {
+  margin-bottom: 11px;
+  margin-top: 11px;
+  height: 1px;
+  background-color: $grey-color-light;
+}
+
+.publications-table td {
+  border: 0px solid white;
+  background-color: white;
+  padding: 0px;
+}
+
+table.publications-table tr:last-of-type div {
+  height: 0px;
+}
+
+td.code-link
+{
+  vertical-align: center;
+  text-align: right;
+  font-size: .9em;
+}
+
+.publication-title {
+  font-size: 1.3em;
+}
+
+td.pub-thumbnail {
+  width: 25%;
+  padding-right: 2%;
+}
+.pub-thumbnail img
+{
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+td.publication-info
+{
+  vertical-align: middle;
+//     width: 80%;
+  /*width: -webkit-calc(80%);
+  width:         calc(80%);*/
+}
+
+.publication-authors, .publication-status,
+.publication-context
+ {
+  font-size: 0.9em;
+}
+
+
+.bio {
+  margin-bottom: $spacing-unit;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.bio a {
+  display: inline;
+  color: $link-base-color;
+
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+}
+
+
+.news-item p {
+  margin-bottom: 0px;
+}
+
+.news-date {
+  font-weight: bold;
+  font-size: 1em;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.5em;
+}
+
+.news-text {
+  display: inline-block;
+  font-size: 1em;
+  max-width: 80%;
+}
+
+.section-break {
+  border-bottom: 1px solid $grey-color-light;
+  line-height: $base-line-height;
+}

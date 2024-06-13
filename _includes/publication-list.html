@@ -3,67 +3,53 @@
     <tr class="publication-entry">
     {% if pub.thumbnail %}
         <td class="pub-thumbnail">
-            <img src="../assets/thumbnails/{{pub.thumbnail}}" />
+            {% if pub.thumbnail contains "iframe" %}
+                {{ pub.thumbnail }}
+            {% else %}
+                <img src="../assets/thumbnails/{{pub.thumbnail}}" />
+            {% endif %}
         </td>
     {% endif %}
+
       <td class="publication-info">
         <a class="publication-title" href="{{ pub.url }}">{{ pub.title }}</a>
         <br/>
         <span class="publication-authors">
-          {% if pub.authors.size == 1 %}
-            <strong>{{pub.authors[0]}}</strong>
-          {% elsif pub.authors.size == 2 %}
+            <em>
+                  {% if pub.authors.size == 1 %}
+                    <strong>{{pub.authors[0]}}</strong>
+                  {% elsif pub.authors.size == 2 %}
 
-            {% if pub.authors[0] contains "Luca" %}
-            <strong>{{pub.authors[0]}}</strong>
-            {% else %}
-            {{pub.authors[0]}}
-            {% endif %}
-            and
-            {% if pub.authors[1] contains "Luca" %}
-            <strong>{{pub.authors[1]}}</strong>
-            {% else %}
-            {{pub.authors[1]}}
-            {% endif %}
+                    {% if pub.authors[0] contains "Luca" %}
+                    <strong>{{pub.authors[0]}}</strong>
+                    {% else %}
+                    {{pub.authors[0]}}
+                    {% endif %}
+                    and
+                    {% if pub.authors[1] contains "Luca" %}
+                    <strong>{{pub.authors[1]}}</strong>
+                    {% else %}
+                    {{pub.authors[1]}}
+                    {% endif %}
 
-          {% else %}
-            {% for author in pub.authors limit:4%}
-              {% if forloop.last == false %}
-                {% if author contains "Luca" %}
-                <strong>{{author}}</strong>,
-                {% else %}
-                {{author}},
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            {% if 4 < pub.authors.size %}
-                {% if pub.authors[3] contains "Luca" %}
-                <strong>{{pub.authors[3]}}</strong>, et al.
-                {% else %}
-                {{pub.authors[3]}}, et al.
-                {% endif %}
-            {% else %}
-              and
-            {% if pub.authors.last contains "Luca" %}
-                <strong>{{pub.authors.last}}</strong>
-                {% else %}
-                {{pub.authors.last}}
-                {% endif %}
-            {% endif %}
-          {% endif %}
-           ({{pub.years[0]}})
+                  {% else %}
+                    {% for author in pub.authors %}
+                        {% if author contains "Luca" %}
+                        <strong>{{author}}</strong>{% if forloop.last == false %},{% endif %}
+                        {% else %}
+                        {{author}}{% if forloop.last == false %},{% endif %}
+                        {% endif %}
+                    {% endfor %}
+
+                  {% endif %}
+            </em>
+            ({{pub.year}})
          </span>
 
-         {% if pub.status %}
+         {% if pub.venue != "arXiv" %}
          <br/>
           <span class="publication-status">
-            {% if pub.status == "accepted" %}
-               Accepted for publication in {{pub.venues[0]}}.
-            {% elsif pub.status == "published" %}
-               Published in {{pub.venues[0]}}.
-            {% elsif pub.status == "review" %}
-               Under review.
-            {% endif %}
+               Accepted at {{pub.venue}}
           </span>
          {% endif %}
 
@@ -74,18 +60,17 @@
           </span>
          {% endif %}
 
-          {% if pub.code %}
+          {% if pub.award != "" %}
+          <br/>
+          <span class="publication-context" style="color: palevioletred">
+            {{ pub.award }}
+          </span>
+         {% endif %}
+
+          {% if pub.code_url %}
           <br/>
           <span class="publication-context">
-           See {{pub.code.language}} package on
-           {% for where in pub.code.wheres %}
-            <a href="{{pub.code.urls[forloop.index0]}}">
-              {{where}}
-            </a>
-            {% if forloop.last == false %}
-              and
-            {% endif %}
-           {% endfor %}
+            <a href="{{pub.code_url}}">Code available</a>
           </span>
          {% endif %}
        </td>
