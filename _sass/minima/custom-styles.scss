@@ -64,9 +64,18 @@ a.active {
   font-size: $base-font-size;
   font-weight: 300;
   letter-spacing: 0px;
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
   margin-top: 2px;
 }
+
+.header-email {
+  font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+  font-size: 0.8 * $base-font-size;
+  font-weight: 300;
+  letter-spacing: 0px;
+  margin-bottom: 1em;
+}
+
 
 .me-circle {
   border-radius: 50%;
