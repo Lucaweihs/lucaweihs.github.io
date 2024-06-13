@@ -1,0 +1,309 @@
+[
+	{
+    	"title": "Towards Disturbance-Free Visual Mobile Manipulation",
+    	"years": [
+    		"2021"
+    	],
+    	"authors": [
+    		"Tianwei Ni", "Kiana Ehsani", "Luca Weihs*", "Jordi Salvador*"
+    	],
+    	"venues": [
+    		"arXiv"
+    	],
+    	"status": "submitted",
+    	"url": "https://arxiv.org/pdf/2112.12612.pdf",
+    	"thumbnail": "disturb-free.gif",
+    	"code" : {
+    		"language" : "Python",
+    		"wheres" : ["GitHub"],
+    		"urls" : ["https://sites.google.com/view/disturb-free"]
+    	}
+    },
+	{
+    	"title": "The Introspective Agent: Interdependence of Strategy, Physiology, and Sensing for Embodied Agents",
+    	"years": [
+    		"2022"
+    	],
+    	"authors": [
+    		"Sarah Pratt", "Luca Weihs", "Ali Farhadi"
+    	],
+    	"venues": [
+    		"arXiv"
+    	],
+    	"status": "submitted",
+    	"url": "https://arxiv.org/pdf/2201.00411.pdf",
+    	"thumbnail": "introspective.png"
+    },
+	{
+    	"title": "Bridging the Imitation Gap by Adaptive Insubordination",
+    	"years": [
+    		"2021"
+    	],
+    	"authors": [
+    		"Luca Weihs*",
+            "Unnat Jain*",
+            "Iou-Jen Liu",
+            "Jordi Salvador",
+    		"Svetlana Lazebnik",
+    		"Aniruddha Kembhavi",
+    		"Alexander Schwing"
+    	],
+    	"venues": [
+    		"NeurIPS'21"
+    	],
+    	"status": "published",
+    	"url": "https://openreview.net/forum?id=Wlx0DqiUTD_",
+    	"thumbnail": "advisor.jpg",
+    	"code" : {
+    		"language" : "Python",
+    		"wheres" : ["GitHub"],
+    		"urls" : ["https://github.com/allenai/advisor"]
+    	}
+    },
+	{
+    	"title": "Simple but Effective: CLIP Embeddings for Embodied AI",
+    	"years": [
+    		"2021"
+    	],
+    	"authors": [
+            "Apoorv Khandelwal*",
+    		"Luca Weihs*",
+            "Roozbeh Mottaghi",
+    		"Aniruddha Kembhavi"
+    	],
+    	"venues": [
+    		"arXiv"
+    	],
+        "thumbnail": "embclip_teaser.png",
+    	"status": "review",
+    	"url": "https://arxiv.org/abs/2111.09888"
+    },
+	{
+    	"title": "Visual Room Rearrangement",
+    	"years": [
+    		"2021"
+    	],
+    	"authors": [
+    		"Luca Weihs", "Matt Deitke", "Aniruddha Kembhavi", "Roozbeh Mottaghi"
+    	],
+    	"venues": [
+    		"CVPR'21"
+    	],
+    	"status": "accepted",
+    	"url": "https://ai2thor.allenai.org/rearrangement/",
+    	"thumbnail": "rearrangement.jpg",
+    	"code" : {
+    		"language" : "Python",
+    		"wheres" : ["GitHub"],
+    		"urls" : ["https://github.com/allenai/ai2thor-rearrangement"]
+    	}
+	},
+	{
+    	"title": "Learning Generalizable Visual Representations via Interactive Gameplay",
+    	"years": [
+    		"2021"
+    	],
+    	"authors": [
+    		"Luca Weihs", "Aniruddha Kembhavi", "Kiana Ehsani", "Sarah M Pratt", "Winson Han", "Alvaro Herrasti", "Eric Kolve", "Dustin Schwenk", "Roozbeh Mottaghi", "Ali Farhadi"
+    	],
+    	"venues": [
+    		"ICLR'21"
+    	],
+    	"status": "published",
+    	"url": "https://openreview.net/pdf?id=UuchYL8wSZo",
+    	"thumbnail": "cache.jpg"
+	},
+	{
+    	"title": "AllenAct",
+    	"years": [
+    		"2020"
+    	],
+    	"authors": [
+    		"Luca Weihs",
+    		"Jordi Salvador",
+    		"Klemen Kotar",
+    		"Unnat Jain",
+    		"Kuo-Hao Zeng",
+    		"Roozbeh Mottaghi",
+    		"Aniruddha Kembhavi"
+    	],
+    	"venues": [
+    		"arXiv"
+    	],
+    	"status": "whitepaper",
+    	"url": "https://allenact.org/",
+    	"thumbnail": "allenact.png",
+    	"code" : {
+    		"language" : "Python",
+    		"wheres" : ["GitHub"],
+    		"urls" : ["https://github.com/allenai/allenact"]
+    	}
+    },
+	{
+    	"title": "A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks",
+    	"years": [
+    		"2020"
+    	],
+    	"authors": [
+    		"Unnat Jain*",
+    		"Luca Weihs*",
+    		"Eric Kolve",
+            "Ali Farhadi",
+    		"Svetlana Lazebnik",
+    		"Aniruddha Kembhavi",
+    		"Alexander Schwing"
+    	],
+    	"venues": [
+    		"ECCV"
+    	],
+    	"status": "published",
+    	"url": "https://arxiv.org/abs/2007.04979",
+    	"code" : {
+                "language" : "Python",
+                "wheres" : ["GitHub"],
+                "urls" : ["https://github.com/allenai/cordial-sync"]
+    	},
+		"thumbnail": "cordialsync.gif"
+	},
+	{
+    	"title": "Two Body Problem: Collaborative Visual Task Completion",
+    	"years": [
+    		"2019"
+    	],
+    	"authors": [
+    		"Unnat Jain*",
+    		"Luca Weihs*",
+    		"Eric Kolve",
+    		"Mohammad Rastegari",
+    		"Svetlana Lazebnik",
+    		"Ali Farhadi",
+    		"Alexander Schwing",
+    		"Aniruddha Kembhavi"
+    	],
+    	"venues": [
+    		"CVPR"
+    	],
+    	"status": "published",
+    	"url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf",
+    	"thumbnail": "tbone.jpg",
+    	"code": {
+                "language" : "Python",
+                "wheres" : ["GitHub"],
+                "urls" : ["https://github.com/allenai/cordial-sync"]
+		}
+	},
+    {
+    	"title" : "Symmetric Rank Covariances: a Generalised Framework for Nonparametric Measures of Dependence",
+    	"years" : ["2018", "2017"],
+    	"authors" : ["Luca Weihs", "Mathias Drton", "Nicolai Meinshausen"],
+    	"venues" : ["Biometrika", "arXiv"],
+    	"status" : "published",
+    	"url" : "https://academic.oup.com/biomet/article-abstract/105/3/547/5038475",
+    	"code" : {
+                "language" : "R",
+                "wheres" : ["GitHub"],
+                "urls" : ["https://github.com/Lucaweihs/SymRC"]
+		},
+    	"thumbnail": "src.jpg"
+	},
+	{
+    	"title" : "Nested Covariance Determinants and Restricted Trek Separation in Gaussian Graphical Models",
+    	"years" : ["2018"],
+    	"authors" : ["Mathias Drton", "Elina Robeva", "Luca Weihs"],
+    	"venues" : ["Bernoulli", "arXiv"],
+    	"status" : "published",
+    	"url" : "https://arxiv.org/abs/1807.07561",
+    	"thumbnail": "nesteddets.jpg"
+    },
+    {
+    	"title" : "Learning to Predict Citation-Based Impact Measures",
+    	"years" : ["2017"],
+    	"authors" : ["Luca Weihs", "Oren Etzioni"],
+    	"venues" : ["JCDL'17"],
+    	"status" : "published",
+    	"url" : "http://ai2-website.s3.amazonaws.com/publications/JCDL2017.pdf",
+    	"code" : {
+            "language" : "Python",
+            "wheres" : ["GitHub"],
+            "urls" : ["https://github.com/Lucaweihs/impact-prediction"]
+		},
+    	"thumbnail": "citepredict.jpg"
+    },
+
+    {
+    	"title" : "Determinantal Generalizations of Instrumental Variables",
+    	"years" : ["2017"],
+    	"authors" : ["Luca Weihs", "Bill Robinson", "Emilie Dufresne",
+    		     "Jennifer Kenkel", "Kaie Kubjas", "Reginald L. McGee II",
+    		     "Nhan Nguyen", "Elina Robeva", "Mathias Drton"],
+    	"venues" : ["Journal of Causal Inference", "arXiv"],
+    	"status" : "published",
+    	"url" : "https://arxiv.org/abs/1702.03884",
+    	"code" : {
+            "language" : "R",
+            "wheres" : ["GitHub"],
+            "urls" : ["https://github.com/Lucaweihs/SEMID"]
+		},
+    	"thumbnail": "detgen.png"
+    },
+    {
+    	"title" : "Marginal likelihood and model selection for Gaussian latent tree and forest models",
+    	"years" : ["2017", "2014"],
+    	"authors" : ["Mathias Drton", "Shaowei Lin", "Luca Weihs", "Piotr Zwiernik"],
+    	"venues" : ["Bernoulli", "arXiv"],
+    	"status" : "published",
+    	"url" : "https://arxiv.org/abs/1412.8285",
+    	"code" : {
+            "language" : "R",
+            "wheres" : ["CRAN", "GitHub"],
+            "urls" : ["https://cran.r-project.org/web/packages/sBIC/index.html",
+		      "https://github.com/Lucaweihs/sBIC"]
+		},
+    	"thumbnail": "marginal-like.png"
+    },
+    {
+    	"title" : "Large-Sample Theory for the Bergsma-Dassios Sign Covariance",
+    	"years" : ["2016", "2016"],
+    	"authors" : ["Preetam Nandy*", "Luca Weihs*", "Mathias Drton"],
+    	"venues" : ["the EJS", "arXiv"],
+    	"status" : "published",
+    	"url" : "https://projecteuclid.org/euclid.ejs/1472498028",
+    	"code" : {
+            "language" : "R",
+            "wheres" : ["CRAN", "GitHub"],
+            "urls" : ["https://cran.r-project.org/web/packages/TauStar/index.html",
+		      "https://github.com/Lucaweihs/TauStar"]
+		},
+    	"thumbnail": "largesample.jpg"
+    },
+    {
+    	"title" : "Generic Identifiability of Linear Structural Equation Models by Ancestor Decomposition",
+    	"years" : ["2016", "2015"],
+    	"authors" : ["Mathias Drton", "Luca Weihs"],
+    	"venues" : ["the Scandinavian Journal of Statistics", "arXiv"],
+    	"status" : "published",
+    	"url" : "https://arxiv.org/abs/1504.02992",
+    	"code" : {
+            "language" : "R",
+            "wheres" : ["CRAN", "GitHub"],
+            "urls" : ["https://cran.r-project.org/web/packages/SEMID/index.html",
+		      "https://github.com/Lucaweihs/SEMID"]
+		},
+    	"thumbnail": "ancestor.png"
+    },
+    {
+    	"title" : "Efficient Computation of the Bergsma-Dassios Sign Covariance",
+    	"years" : ["2016", "2015"],
+    	"authors" : ["Luca Weihs", "Mathias Drton", "Dennis Leung"],
+    	"venues" : ["Computational Statistics", "arXiv"],
+    	"status" : "published",
+    	"url" : "https://arxiv.org/abs/1504.00964",
+    	"code" : {
+            "language" : "R",
+            "wheres" : ["CRAN", "GitHub"],
+            "urls" : ["https://cran.r-project.org/web/packages/TauStar/index.html",
+		      "https://github.com/Lucaweihs/TauStar"]
+		},
+    	"thumbnail": "efficientcomputation.png"
+    }
+]
