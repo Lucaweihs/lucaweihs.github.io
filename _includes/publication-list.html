@@ -20,13 +20,13 @@
                     <strong>{{pub.authors[0]}}</strong>
                   {% elsif pub.authors.size == 2 %}
 
-                    {% if pub.authors[0] contains "Luca" %}
+                    {% if pub.authors[0] contains "Luca W" %}
                     <strong>{{pub.authors[0]}}</strong>
                     {% else %}
                     {{pub.authors[0]}}
                     {% endif %}
                     and
-                    {% if pub.authors[1] contains "Luca" %}
+                    {% if pub.authors[1] contains "Luca W" %}
                     <strong>{{pub.authors[1]}}</strong>
                     {% else %}
                     {{pub.authors[1]}}
@@ -34,7 +34,7 @@
 
                   {% else %}
                     {% for author in pub.authors %}
-                        {% if author contains "Luca" %}
+                        {% if author contains "Luca W" %}
                         <strong>{{author}}</strong>{% if forloop.last == false %},{% endif %}
                         {% else %}
                         {{author}}{% if forloop.last == false %},{% endif %}

@@ -1,18 +1,26 @@
 [
   {
-    "date": "6/24",
-    "text": "Organizing the 5th Embodied AI workshop at CVPR'24: [embodied-ai.org](https://embodied-ai.org/)"
+    "date": "10/24",
+    "text": "Presented at the Mila Robot Learning Seminar: [video](https://www.youtube.com/watch?v=7yhdml5Gd30)"
   },
   {
-    "date": "5/24",
+    "date": "09/24",
+    "text": "PoliFormer accepted as an Oral at CoRL'24: [poliformer.allen.ai](https://poliformer.allen.ai/)"
+  },
+  {
+    "date": "06/24",
+    "text": "Organized the 5th Embodied AI workshop at CVPR'24: [embodied-ai.org](https://embodied-ai.org/)"
+  },
+  {
+    "date": "05/24",
     "text": "ICRA'24 Best Paper Award Finalist (Robot Vision): <br />[Universal Visual Decomposer: Long-Horizon Manipulation Made Easy](https://zcczhang.github.io/UVD/)"
   },
   {
-    "date": "3/24",
+    "date": "03/24",
     "text": "Four papers accepted at CVPR'24: [[1](https://spoc-robot.github.io/), [2](https://ram81.github.io/projects/seeing-unseen.html), [3](https://yueyang1996.github.io/holodeck/), [4](https://promptable-behaviors.github.io/)]"
   },
   {
-    "date": "3/24",
+    "date": "03/24",
     "text": "Area Chair at CVPR'24"
   }
 ]
