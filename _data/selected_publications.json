@@ -78,7 +78,8 @@
     "url": "https://poliformer.allen.ai/",
     "thumbnail": "<iframe src=\"https://giphy.com/embed/J2Vb7pTmmRbDdF5j4C\" width=\"100%\" frameBorder=\"0\" class=\"giphy-embed\" allowFullScreen></iframe>",
     "highlight": 1,
-    "award": "Oral"
+    "award": "Outstanding Paper Award @ CoRL'24",
+    "code_url": "https://github.com/allenai/poliformer"
   },
   {
     "title": "Seeing the Unseen: Visual Common Sense for Semantic Placement",
